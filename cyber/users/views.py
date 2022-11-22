@@ -59,8 +59,9 @@ def logout():
 @login_required
 def account():
     global aes
-    filePath = "C://workspace//Cyber-Secure//cyber//"
-    #filePath = "C://Downloads//"
+    #for the filePath you have to put where you have stored cyber//static//profile_pics// in your file explorer
+    #for example I have stored it in Cyber-Secure in space in C drive so I put C://space//Cyber-Secure//cyber//static//profile_pics//.
+    filePath = "C://space//Cyber-Secure//cyber//static//profile_pics//"
     print(filePath)
     form = UpdateUserForm()
 
